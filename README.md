@@ -1,5 +1,7 @@
 # akv-Spring-boot-4-issue
 
+## Overview
+
 This project was created to highlight an issue initially observed in a larger project, though in the course of recreating the issue,
 the cause of the issue was identified: a dependency `io.netty:netty-codec-http:4.2.8.Final`
 
@@ -10,6 +12,11 @@ java.lang.IllegalArgumentException: The URI contain illegal characters: /secrets
 ```
 
 to be thrown when an Azure `SecretClient` attempts to call the `listPropertiesOfSecretVersions(String)` method.
+
+## Prerequisites
+
+* Java 21 (Java 17 might work)
+* Gradle *.14 or above
 
 ## Environment Variables
 
