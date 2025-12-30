@@ -16,7 +16,7 @@ to be thrown when an Azure `SecretClient` attempts to call the `listPropertiesOf
 ## Prerequisites
 
 * Java 21 (Java 17 might work)
-* Gradle *.14 or above
+* Gradle 8.14 or above
 
 ## Environment Variables
 
